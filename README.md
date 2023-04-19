@@ -2,10 +2,11 @@
 
 ## Introduction 
 
-This project was developed as part of a digital signal processing class. An audiofile was choosen and the following steps were executed:
-1. The domain time signal was plotted. 
-2. The frequency spectrum was plotted through scilab's FFT. 
-3. A low pass filter was projected using python's library pyFDA.
-4. The overlap-and-add method for frequency domain convolution was implemented. 
-5. The original audio was filtered. 
-6. The resulting signal was upsampled by a factor of 2 and then interpolated through the projected filter.
+As a part of a digital signal processing class, this project involved working with an audio file and performing the following steps:
+
+    1. Plotting the domain time signal.
+    2. Plotting the frequency spectrum using scipy's FFT.
+    3. Designing a low pass filter using the python library pyFDA.
+    4. Implementing the overlap-and-add method for frequency domain convolution.
+    5. Filtering the original audio signal using the designed filter.
+    6. Upsampling the resulting signal by a factor of 2 and interpolating it through the designed filter.
